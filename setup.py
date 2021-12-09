@@ -7,9 +7,7 @@ README = (HERE / "README.md").read_text(encoding='utf-8')
 requirements = [
     'requests<3.0,>=2.25.1',
     'PySocks==1.7.1',
-    'SpeechRecognition==3.8.1',
     'pydub==0.25.1',
-    'selenium',
 ]
 
 setup(
